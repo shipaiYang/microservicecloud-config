@@ -2,6 +2,7 @@ spring:
   profiles:
     active: 
       - dev
+
 ---
 spring:
   profiles: dev
@@ -40,6 +41,7 @@ info:
   company.name: www.ysp.org
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
 ---
 spring:
   profiles: test
